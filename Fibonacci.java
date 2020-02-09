@@ -2,10 +2,6 @@ import java.math.BigInteger;
 
 public class Fibonacci {
 
-  public static void main(String[] args) {
-    System.out.println(fib(BigInteger.valueOf(-2)));
-  }
-
   public static BigInteger fib(BigInteger n) {
 
     BigInteger bi = n.abs();
