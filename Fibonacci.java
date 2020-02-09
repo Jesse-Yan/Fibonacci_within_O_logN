@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class The_Millionth_Fibonacci_Kata {
+public class Fibonacci {
 
   public static void main(String[] args) {
     System.out.println(fib(BigInteger.valueOf(-2)));
